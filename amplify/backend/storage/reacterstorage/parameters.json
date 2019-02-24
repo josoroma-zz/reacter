@@ -1,0 +1,13 @@
+{
+    "bucketName": "reacterstorage",
+    "authPolicyName": "s3_amplify_1dbaf92f",
+    "unauthPolicyName": "s3_amplify_1dbaf92f",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}

@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "reactergraphql",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authreacterauth",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

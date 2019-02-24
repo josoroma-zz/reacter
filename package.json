@@ -1,0 +1,51 @@
+{
+  "name": "reacter",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://reacterhostingbucket.s3-website-us-east-1.amazonaws.com",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "aws-amplify": "^1.1.19",
+    "aws-amplify-react": "^2.3.0",
+    "connected-react-router": "^6.1.0",
+    "formik": "^1.4.3",
+    "history": "^4.7.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "3.1.0",
+    "redux": "^4.0.1",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.3.3",
+    "typescript-fsa": "^3.0.0-beta-2",
+    "typescript-fsa-reducers": "^1.1.0",
+    "uuid": "^3.3.2",
+    "yup": "^0.26.10"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.5",
+    "@types/history": "^4.7.2",
+    "@types/jest": "^23.3.11",
+    "@types/node": "^10.12.18",
+    "@types/node-sass": "^3.10.32",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-redux": "^6.0.12",
+    "@types/react-router": "^4.4.3",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux-logger": "^3.0.6",
+    "@types/uuid": "^3.4.4",
+    "@types/yup": "^0.26.7",
+    "node-sass": "^4.11.0",
+    "redux-logger": "^3.0.6",
+    "typescript": "^3.2.2"
+  }
+}
